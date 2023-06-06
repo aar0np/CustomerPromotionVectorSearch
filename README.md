@@ -4,7 +4,7 @@ A simple Restful service simulating a promotion call.  When a customer scans or 
 the vector stored with that product is used to query an approximate nearest neighbor (ANN) to pull the _next_ nearest neighbor.
 
 ## Stack
- - Java 21
+ - Java 17
  - Spring Boot 2.7.12
  - Maven
  - Cassandra Java Driver 4.16.0
