@@ -37,7 +37,7 @@ Insert data:
     INSERT INTO pet_supply_vectors (product_id, product_name, product_vector)
     VALUES ('pf7044','PupperSausage Beef dog Treats',[0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]);
 
-Data is built using a "bag of words" approach, with a vocabulary maxtrix built from all 14 words present in the above 6 product names, in the following order:
+Data is built using a "bag of words" approach, with a vocabulary matrix built from all 14 words present in the above 6 product names, in the following order:
 
 HealthyFresh, Chicken, raw, dog, food, Beef, Pupper-Sausage, Ring, Chew, Toy, Ball, Tennis, Bacon, Treats
 
