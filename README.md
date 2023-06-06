@@ -63,10 +63,20 @@ in Astra DB, as well as the location of the downloaded secure bundle.  Adjust ac
 
 ## Application
 
-If necessary, the version of Java is set inside the pom.xml.
+If necessary, the version of Java is set inside the pom.xml.  Spring Boot will run the service on: http://localhost:8080/promotionsvc/promoproduct/{productid}
 
 Assuming that Maven and Java are installed, the app should start with the following command:
 
     mvn spring-boot:run
 
+## Testing
 
+curl:
+
+    % curl -s -XGET http://127.0.0.1:8080/promotionsvc/promoproduct/pf1843
+    {"productid":"pf1844","productname":"HealthyFresh - Beef raw dog food","vector":{"values":[1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]}}
+
+browser:
+
+    http://localhost:8080/promotionsvc/promoproduct/pf1843
+    
