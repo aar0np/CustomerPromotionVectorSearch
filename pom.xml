@@ -14,9 +14,9 @@
 	<name>customerpromotion</name>
 	<description>Demo project for customer promotion article</description>
 	<properties>
-		<java.version>21</java.version>
-		<maven.compiler.source>21</maven.compiler.source>
-	    <maven.compiler.target>21</maven.compiler.target>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+	    <maven.compiler.target>17</maven.compiler.target>
 	    <cassandra.driver.oss.version>4.16.0</cassandra.driver.oss.version>
 	</properties>
 	<dependencies>
