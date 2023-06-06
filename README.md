@@ -65,7 +65,13 @@ in Astra DB, as well as the location of the downloaded secure bundle.  Adjust ac
 
 If necessary, the version of Java is set inside the pom.xml.  Spring Boot will run the service on: http://localhost:8080/promotionsvc/promoproduct/{productid}
 
-Assuming that Maven and Java are installed, the app should start with the following command:
+Assuming that Maven and Java are installed, the app should start with the following commands
+
+build:
+
+    mvn clean install
+
+run:
 
     mvn spring-boot:run
 
