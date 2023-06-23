@@ -1,4 +1,4 @@
-package com.datastax.customerpromotion;
+package com.datastax.bigbox;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

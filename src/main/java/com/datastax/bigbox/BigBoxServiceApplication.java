@@ -1,4 +1,4 @@
-package com.datastax.customerpromotion;
+package com.datastax.bigbox;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

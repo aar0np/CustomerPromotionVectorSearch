@@ -1,4 +1,4 @@
-package com.datastax.customerpromotion;
+package com.datastax.bigbox;
 
 import java.util.ArrayList;
 import java.util.List;
